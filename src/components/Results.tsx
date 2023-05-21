@@ -1,4 +1,10 @@
-import { getResults } from '@/utils/helpers';
+import {
+  FormSchemaType,
+  TestEnum,
+  getMatchType,
+  getResults,
+  getResultsType,
+} from '@/utils/helpers';
 
 import {
   Accordion,
@@ -14,13 +20,25 @@ import {
   DialogTitle,
   DialogTrigger,
 } from '@/components/ui/dialog';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table';
 
 type ResultsProps = {
-  data: ReturnType<typeof getResults>;
+  data: {
+    data: ReturnType<typeof getResults> | null;
+    form: FormSchemaType | null;
+  };
 };
 
 type BacteriaProps = {
-  bacteria: ResultsProps['data'][number];
+  bacteria: NonNullable<ResultsProps['data']['data']>[number];
+  form: FormSchemaType;
 };
 
 const Help = () => {
@@ -98,19 +116,45 @@ const Help = () => {
 };
 
 const Details = (props: BacteriaProps) => {
-  const { bacteria } = props;
+  const { bacteria, form } = props;
   return (
     <Accordion type='single' collapsible className='w-full'>
       <AccordionItem value={bacteria.name} className='border-none'>
         <AccordionTrigger>Ver detalhes</AccordionTrigger>
-        <AccordionContent>Yes. It adheres to the WAI-ARIA design pattern.</AccordionContent>
+        <AccordionContent>
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>Teste</TableHead>
+                <TableHead>Resultado do Teste</TableHead>
+                <TableHead>
+                  <span className='italic'>{bacteria.name}</span>
+                </TableHead>
+                <TableHead>Combinação</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {Object.keys(bacteria.results)?.map((result) => {
+                const test = TestEnum.parse(result);
+                return (
+                  <TableRow key={result}>
+                    <TableCell className='font-medium'>{result}</TableCell>
+                    <TableCell>{getResultsType(form[test])}</TableCell>
+                    <TableCell>{getResultsType(bacteria.results[test])}</TableCell>
+                    <TableCell>{getMatchType(bacteria.results[test], form[test])}</TableCell>
+                  </TableRow>
+                );
+              })}
+            </TableBody>
+          </Table>
+        </AccordionContent>
       </AccordionItem>
     </Accordion>
   );
 };
 
 const Bacteria = (props: BacteriaProps) => {
-  const { bacteria } = props;
+  const { bacteria, form } = props;
   return (
     <Card className='w-full'>
       <CardHeader>
@@ -129,7 +173,7 @@ const Bacteria = (props: BacteriaProps) => {
             <span className='font-medium'>Menos provável: {bacteria.barely}</span>
           </div>
         </div>
-        <Details bacteria={bacteria} />
+        <Details bacteria={bacteria} form={form} />
       </CardContent>
     </Card>
   );
@@ -145,9 +189,10 @@ const Results = (props: ResultsProps) => {
         <Help />
       </div>
       <div className='flex flex-col gap-4'>
-        {data?.map((bacteria) => (
-          <Bacteria bacteria={bacteria} key={bacteria.name} />
-        ))}
+        {data?.data?.map(
+          (bacteria) =>
+            data.form && <Bacteria key={bacteria.name} bacteria={bacteria} form={data.form} />,
+        )}
       </div>
     </div>
   );

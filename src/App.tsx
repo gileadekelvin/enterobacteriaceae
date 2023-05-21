@@ -6,18 +6,24 @@ import Results from './components/Results';
 import { FormSchemaType, getResults } from './utils/helpers';
 
 const App = () => {
-  const [data, setData] = useState<ReturnType<typeof getResults> | null>(null);
+  const [data, setData] = useState<{
+    data: ReturnType<typeof getResults> | null;
+    form: FormSchemaType | null;
+  }>({
+    data: null,
+    form: null,
+  });
 
-  const computeResults = (data: FormSchemaType) => {
-    const results = getResults(data);
-    setData(results);
+  const computeResults = (dataForm: FormSchemaType) => {
+    const results = getResults(dataForm);
+    setData({ data: results, form: dataForm });
   };
 
   return (
-    <main className='flex h-screen flex-col max-w-[83rem] mx-auto px-4 pt-12 md:pt-10 lg:py-36'>
+    <main className='flex h-screen flex-col max-w-[83rem] mx-auto px-4 pt-4 md:pt-6 lg:py-12'>
       <div className='flex flex-col md:flex-row gap-8 md:gap-6'>
         <TestForm computeResults={computeResults} />
-        {data && <Results data={data} />}
+        {data.data && data.form && <Results data={data} />}
       </div>
     </main>
   );
