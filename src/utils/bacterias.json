@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Escherichia coli",
+    "subgrupo": "Escherichiae (Tribo I)",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative"
+    }
+  },
+  {
+    "name": "Shigella spp.",
+    "subgrupo": "Escherichiae (Tribo I)",
+    "results": {
+      "Indol": "negative_positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative"
+    }
+  },
+  {
+    "name": "Shigella sonnei",
+    "subgrupo": "Escherichiae (Tribo I)",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative"
+    }
+  },
+  {
+    "name": "Edwadsiella tarda",
+    "subgrupo": "Edwardsielleae (Tribo II)",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative"
+    }
+  },
+  {
+    "name": "Salmonella spp.",
+    "subgrupo": "Salmonelleae (Tribo III)",
+    "genero": "Salmonella",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "positive"
+    }
+  }
+]
