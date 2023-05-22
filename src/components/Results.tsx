@@ -52,11 +52,11 @@ const Help = () => {
           />
         </svg>
       </DialogTrigger>
-      <DialogContent className='overflow-auto'>
+      <DialogContent>
         <DialogHeader>
           <DialogTitle>Como os resultados são calculados?</DialogTitle>
         </DialogHeader>
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4 overflow-auto h-[600px]'>
           <p>
             Os resultados são calculados comparando os dados dos testes bioquímicos os valores de
             referências para as bactérias.
