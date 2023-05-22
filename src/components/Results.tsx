@@ -52,7 +52,7 @@ const Help = () => {
           />
         </svg>
       </DialogTrigger>
-      <DialogContent>
+      <DialogContent className='overflow-auto'>
         <DialogHeader>
           <DialogTitle>Como os resultados são calculados?</DialogTitle>
         </DialogHeader>

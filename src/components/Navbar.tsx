@@ -29,7 +29,7 @@ const Navbar = () => {
           <div>
             <Dialog>
               <DialogTrigger>
-                <Button asChild variant='ghost'>Sobre</Button>
+                <span>Sobre</span>
               </DialogTrigger>
               <DialogContent>
                 <DialogHeader>
