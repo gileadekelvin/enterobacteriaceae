@@ -30,7 +30,7 @@ const TestForm = (props: TestFormProps) => {
   }
 
   return (
-    <div className='flex flex-col justify-start w-full md:w-[600px] gap-2'>
+    <div className='flex flex-col justify-start w-full md:w-[600px] gap-2 mb-4'>
       <h3>Preencha o resultado dos testes bioquímicos:</h3>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className='space-y-3'>
