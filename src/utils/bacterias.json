@@ -144,5 +144,30 @@
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
+  },
+  {
+    "name": "freundii",
+    "subgrupo": "Citrobactereae (TRibo IV)",
+    "genero": "Citrobacter",
+    "results": {
+      "Indol": "negative_positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "positive_negative",
+      "H2S": "positive_negative",
+      "Hidrólise de uréia": "depends",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive_negative",
+      "Malonato": "negative_positive",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive_negative",
+      "Lactose": "positive_negative",
+      "Sacarose": "positive_negative",
+      "HIdrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
   }
 ]
