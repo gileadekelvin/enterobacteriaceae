@@ -6,7 +6,21 @@
       "Indol": "positive",
       "VM": "positive",
       "VP": "negative",
-      "CITRATO": "negative"
+      "CITRATO": "negative",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "positive_negative",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "positive",
+      "Sacarose": "depends",
+      "HIdrólise de esculina": "negative_positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
     }
   },
   {
@@ -16,7 +30,21 @@
       "Indol": "negative_positive",
       "VM": "positive",
       "VP": "negative",
-      "CITRATO": "negative"
+      "CITRATO": "negative",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "HIdrólise de esculina": "negative_positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
     }
   },
   {
@@ -26,7 +54,21 @@
       "Indol": "negative",
       "VM": "positive",
       "VP": "negative",
-      "CITRATO": "negative"
+      "CITRATO": "negative",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "positive",
+      "Mot.(36C)": "negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "HIdrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
     }
   },
   {
@@ -36,7 +78,21 @@
       "Indol": "positive",
       "VM": "positive",
       "VP": "negative",
-      "CITRATO": "negative"
+      "CITRATO": "negative",
+      "H2S": "positive",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "positive",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "HIdrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
     }
   },
   {
@@ -47,7 +103,46 @@
       "Indol": "negative",
       "VM": "positive",
       "VP": "negative",
-      "CITRATO": "positive"
+      "CITRATO": "positive",
+      "H2S": "positive",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "positive",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "HIdrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "subsp. arizonae",
+    "subgrupo": "Salmonelleae (Tribo III)",
+    "genero": "S.enterica",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "positive",
+      "H2S": "positive",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "positive",
+      "Mot.(36C)": "positive",
+      "Malonato": "positive",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "negative_positive",
+      "Sacarose": "negative",
+      "HIdrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
     }
   }
 ]

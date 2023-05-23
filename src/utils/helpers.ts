@@ -2,7 +2,26 @@ import { z } from 'zod';
 
 import bacterias from './bacterias.json';
 
-export const keys = ['Indol', 'VM', 'VP', 'CITRATO'] as const;
+export const keys = [
+  'Indol',
+  'VM',
+  'VP',
+  'CITRATO',
+  'H2S',
+  'Hidrólise de uréia',
+  'FEN(LTD)',
+  'Lis. Desc.',
+  'Ornitina',
+  'Mot.(36C)',
+  'Malonato',
+  'Glic. (Ácido)',
+  'Glicose (CO2)',
+  'Lactose',
+  'Sacarose',
+  'HIdrólise de esculina',
+  'DNAse(25C)',
+  'Pigmento amarelo',
+] as const;
 
 export const TestEnum = z.enum(keys);
 export const FormSchema = z.object({
@@ -10,6 +29,20 @@ export const FormSchema = z.object({
   VM: z.enum(['positive', 'negative']).optional(),
   VP: z.enum(['positive', 'negative']).optional(),
   CITRATO: z.enum(['positive', 'negative']).optional(),
+  H2S: z.enum(['positive', 'negative']).optional(),
+  'Hidrólise de uréia': z.enum(['positive', 'negative']).optional(),
+  'FEN(LTD)': z.enum(['positive', 'negative']).optional(),
+  'Lis. Desc.': z.enum(['positive', 'negative']).optional(),
+  Ornitina: z.enum(['positive', 'negative']).optional(),
+  'Mot.(36C)': z.enum(['positive', 'negative']).optional(),
+  Malonato: z.enum(['positive', 'negative']).optional(),
+  'Glic. (Ácido)': z.enum(['positive', 'negative']).optional(),
+  'Glicose (CO2)': z.enum(['positive', 'negative']).optional(),
+  Lactose: z.enum(['positive', 'negative']).optional(),
+  Sacarose: z.enum(['positive', 'negative']).optional(),
+  'HIdrólise de esculina': z.enum(['positive', 'negative']).optional(),
+  'DNAse(25C)': z.enum(['positive', 'negative']).optional(),
+  'Pigmento amarelo': z.enum(['positive', 'negative']).optional(),
 });
 export type FormSchemaType = z.infer<typeof FormSchema>;
 
