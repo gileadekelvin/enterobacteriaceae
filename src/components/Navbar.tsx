@@ -37,9 +37,9 @@ const Navbar = () => {
                 <div className='flex flex-col gap-4'>
                   <span>
                     Este site foi desenvolvido pela estudante de farmácia da UEPB
-                    <span className='font-bold'> Jéssica Gabriele</span> e pelo engenheiro de
-                    software
-                    <span className='font-bold'> Gileade Kelvin</span>.
+                    <span className='font-bold'> Jéssica Gabriele</span> pelo engenheiro de software
+                    <span className='font-bold'> Gileade Kelvin</span> com base nos dados fornecidos
+                    pela professora de Microbiologia Clínica da UEPB <span className='font-bold'> Zilca Nanes</span>.
                   </span>
                 </div>
               </DialogContent>

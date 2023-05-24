@@ -62,6 +62,11 @@ const Help = () => {
             referências para as bactérias.
           </p>
           <p>
+            Os dados usados para o cálculo têm as seguintes referências:
+            Lima, Z. N. 2023 (Microbiologia Clínica)
+            Fonte: Koneman, 2018
+          </p>
+          <p>
             Cada bactéria possui um conjunto de valores de referência e para cada uma delas
             comparamos se esse valor corresponde ao resultado obtido no teste.
           </p>
