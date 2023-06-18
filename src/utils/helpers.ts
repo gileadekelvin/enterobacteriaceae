@@ -18,7 +18,7 @@ export const keys = [
   'Glicose (CO2)',
   'Lactose',
   'Sacarose',
-  'HIdrólise de esculina',
+  'Hidrólise de esculina',
   'DNAse(25C)',
   'Pigmento amarelo',
 ] as const;
@@ -40,7 +40,7 @@ export const FormSchema = z.object({
   'Glicose (CO2)': z.enum(['positive', 'negative']).optional(),
   Lactose: z.enum(['positive', 'negative']).optional(),
   Sacarose: z.enum(['positive', 'negative']).optional(),
-  'HIdrólise de esculina': z.enum(['positive', 'negative']).optional(),
+  'Hidrólise de esculina': z.enum(['positive', 'negative']).optional(),
   'DNAse(25C)': z.enum(['positive', 'negative']).optional(),
   'Pigmento amarelo': z.enum(['positive', 'negative']).optional(),
 });

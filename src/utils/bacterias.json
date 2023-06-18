@@ -18,7 +18,7 @@
       "Glicose (CO2)": "positive",
       "Lactose": "positive",
       "Sacarose": "depends",
-      "HIdrólise de esculina": "negative_positive",
+      "Hidrólise de esculina": "negative_positive",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
@@ -42,7 +42,7 @@
       "Glicose (CO2)": "negative",
       "Lactose": "negative",
       "Sacarose": "negative",
-      "HIdrólise de esculina": "negative_positive",
+      "Hidrólise de esculina": "negative_positive",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
@@ -66,7 +66,7 @@
       "Glicose (CO2)": "negative",
       "Lactose": "negative",
       "Sacarose": "negative",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
@@ -90,7 +90,7 @@
       "Glicose (CO2)": "positive",
       "Lactose": "negative",
       "Sacarose": "negative",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
@@ -115,7 +115,7 @@
       "Glicose (CO2)": "positive",
       "Lactose": "negative",
       "Sacarose": "negative",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
@@ -140,14 +140,14 @@
       "Glicose (CO2)": "positive",
       "Lactose": "negative_positive",
       "Sacarose": "negative",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
   },
   {
     "name": "freundii",
-    "subgrupo": "Citrobactereae (TRibo IV)",
+    "subgrupo": "Citrobactereae (Tribo IV)",
     "genero": "Citrobacter",
     "results": {
       "Indol": "negative_positive",
@@ -165,14 +165,14 @@
       "Glicose (CO2)": "positive_negative",
       "Lactose": "positive_negative",
       "Sacarose": "positive_negative",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
   },
   {
     "name": "koseri (diversus)",
-    "subgrupo": "Citrobactereae (TRibo IV)",
+    "subgrupo": "Citrobactereae (Tribo IV)",
     "genero": "Citrobacter",
     "results": {
       "Indol": "positive",
@@ -190,14 +190,14 @@
       "Glicose (CO2)": "positive",
       "Lactose": "depends",
       "Sacarose": "depends",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
   },
   {
     "name": "amalonaticus",
-    "subgrupo": "Citrobactereae (TRibo IV)",
+    "subgrupo": "Citrobactereae (Tribo IV)",
     "genero": "Citrobacter",
     "results": {
       "Indol": "positive",
@@ -215,14 +215,14 @@
       "Glicose (CO2)": "positive",
       "Lactose": "negative_positive",
       "Sacarose": "negative",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
   },
   {
     "name": "aerogenes",
-    "subgrupo": "Klebsielleae (Tribo IV)",
+    "subgrupo": "Klebsielleae (Tribo V)",
     "genero": "Enterobacter",
     "results": {
       "Indol": "negative",
@@ -240,14 +240,14 @@
       "Glicose (CO2)": "positive",
       "Lactose": "positive",
       "Sacarose": "positive",
-      "HIdrólise de esculina": "positive",
+      "Hidrólise de esculina": "positive",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
   },
   {
     "name": "cloacae",
-    "subgrupo": "Klebsielleae (Tribo IV)",
+    "subgrupo": "Klebsielleae (Tribo V)",
     "genero": "Enterobacter",
     "results": {
       "Indol": "negative",
@@ -265,14 +265,14 @@
       "Glicose (CO2)": "positive",
       "Lactose": "positive",
       "Sacarose": "positive",
-      "HIdrólise de esculina": "negative_positive",
+      "Hidrólise de esculina": "negative_positive",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
   },
   {
     "name": "gergoviae",
-    "subgrupo": "Klebsielleae (Tribo IV)",
+    "subgrupo": "Klebsielleae (Tribo V)",
     "genero": "Enterobacter",
     "results": {
       "Indol": "negative",
@@ -290,17 +290,17 @@
       "Glicose (CO2)": "positive",
       "Lactose": "depends",
       "Sacarose": "positive",
-      "HIdrólise de esculina": "positive",
+      "Hidrólise de esculina": "positive",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "negative"
     }
   },
   {
     "name": "sakazakii",
-    "subgrupo": "Klebsielleae (Tribo IV)",
+    "subgrupo": "Klebsielleae (Tribo V)",
     "genero": "Enterobacter",
     "results": {
-      "Indol": "negative/positive",
+      "Indol": "negative_positive",
       "VM": "negative",
       "VP": "positive",
       "CITRATO": "positive",
@@ -315,19 +315,19 @@
       "Glicose (CO2)": "positive",
       "Lactose": "positive",
       "Sacarose": "positive",
-      "HIdrólise de esculina": "positive",
+      "Hidrólise de esculina": "positive",
       "DNAse(25C)": "negative",
       "Pigmento amarelo": "positive"
     }
   },
   {
     "name": "alvei",
-    "subgrupo": "Klebsielleae (Tribo IV)",
+    "subgrupo": "Klebsielleae (Tribo V)",
     "genero": "Hafnia",
     "results": {
       "Indol": "negative",
       "VM": "depends",
-      "VP": "positive_negatie",
+      "VP": "positive_negative",
       "CITRATO": "negative",
       "H2S": "negative",
       "Hidrólise de uréia": "negative",
@@ -340,9 +340,509 @@
       "Glicose (CO2)": "positive",
       "Lactose": "negative",
       "Sacarose": "negative",
-      "HIdrólise de esculina": "negative",
+      "Hidrólise de esculina": "negative",
       "DNAse(25C)": "negative",
-      "Pigmento amarelo": "positive"
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "oxytoca",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Klebsiella",
+    "results": {
+      "Indol": "positive",
+      "VM": "negative_positive",
+      "VP": "positive",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "negative",
+      "Mot.(36C)": "negative",
+      "Malonato": "positive",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "positive",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "psenumoniae subsp | pneumoniae",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Klebsiella",
+    "results": {
+      "Indol": "negative",
+      "VM": "negative",
+      "VP": "positive",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "negative",
+      "Mot.(36C)": "negative",
+      "Malonato": "positive",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "positive",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "psenumoniae subsp | ozaenae",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Klebsiella",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative_positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "depends",
+      "Ornitina": "negative",
+      "Mot.(36C)": "negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "depends",
+      "Lactose": "negative_positive",
+      "Sacarose": "negative_positive",
+      "Hidrólise de esculina": "positive_negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "psenumoniae subsp | rhinoscleromatis",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Klebsiella",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "negative",
+      "Malonato": "positive",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "positive_negative",
+      "Hidrólise de esculina": "negative_positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "agglomerans",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Pantoea",
+    "results": {
+      "Indol": "negative_positive",
+      "VM": "depends",
+      "VP": "positive_negative",
+      "CITRATO": "depends",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative_positive",
+      "FEN(LTD)": "negative_positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive_negative",
+      "Malonato": "positive_negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative_positive",
+      "Lactose": "depends",
+      "Sacarose": "negative",
+      "Hidrólise de esculina": "depends",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "positive_negative"
+    }
+  },
+  {
+    "name": "dispersa",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Pantoea",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive_negative",
+      "VP": "positive_negative",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "Hidrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative_positive"
+    }
+  },
+  {
+    "name": "ornithinolytica",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Raoultella",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "positive_negative",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "positive",
+      "Mot.(36C)": "negative",
+      "Malonato": "positive",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "positive",
+      "Sacarose": "negative",
+      "Hidrólise de esculina": "positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "marcescens",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Serratia",
+    "results": {
+      "Indol": "negative",
+      "VM": "negative_positive",
+      "VP": "positive",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative_positive",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "positive",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "depends",
+      "Lactose": "negative",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "positive",
+      "DNAse(25C)": "positive",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "liquefaciens",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Serratia",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "positive",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "positive",
+      "Ornitina": "positive",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive_negative",
+      "Lactose": "negative",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "positive",
+      "DNAse(25C)": "positive_negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "rubidaea",
+    "subgrupo": "Klebsielleae (Tribo V)",
+    "genero": "Serratia",
+    "results": {
+      "Indol": "negative",
+      "VM": "negative_positive",
+      "VP": "positive",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "depends",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive_negative",
+      "Malonato": "positive",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative_positive",
+      "Lactose": "positive",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "positive",
+      "DNAse(25C)": "positive",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "mirabilis",
+    "subgrupo": "Proteae (Tribo VI)",
+    "genero": "Proteus",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "depends",
+      "CITRATO": "positive_negative",
+      "H2S": "positive",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "positive",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "negative",
+      "Sacarose": "negative_positive",
+      "Hidrólise de esculina": "negative",
+      "DNAse(25C)": "depends",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "vulgaris",
+    "subgrupo": "Proteae (Tribo VI)",
+    "genero": "Proteus",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative_positive",
+      "H2S": "positive",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive_negative",
+      "Lactose": "negative",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "depends",
+      "DNAse(25C)": "positive_negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "penneri",
+    "subgrupo": "Proteae (Tribo VI)",
+    "genero": "Proteus",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative",
+      "H2S": "negative_positive",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive_negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "depends",
+      "Lactose": "negative",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "negative",
+      "DNAse(25C)": "depends",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "morganni subsp. morganii",
+    "subgrupo": "Proteae (Tribo VI)",
+    "genero": "Morganela",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative",
+      "H2S": "negative_positive",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "positive",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "Hidrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "rettgeri",
+    "subgrupo": "Proteae (Tribo VI)",
+    "genero": "Providencia",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "negative_positive",
+      "Hidrólise de esculina": "negative_positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "stuartii",
+    "subgrupo": "Proteae (Tribo VI)",
+    "genero": "Providencia",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative_positive",
+      "FEN(LTD)": "positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive_negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "depends",
+      "Hidrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "alcalifaciens",
+    "subgrupo": "Proteae (Tribo VI)",
+    "genero": "Providencia",
+    "results": {
+      "Indol": "positive",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "positive",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "positive",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "positive",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "positive_negative",
+      "Lactose": "negative",
+      "Sacarose": "negative_positive",
+      "Hidrólise de esculina": "negative",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "enterocolitica",
+    "subgrupo": "Yiesiniae (Tribo VII)",
+    "genero": "Yersinia",
+    "results": {
+      "Indol": "depends",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative",
+      "H2S": "negative",
+      "Hidrólise de uréia": "positive_negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "positive",
+      "Mot.(36C)": "negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "positive",
+      "Hidrólise de esculina": "negative_positive",
+      "DNAse(25C)": "negative",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "pestis",
+    "subgrupo": "Yiesiniae (Tribo VII)",
+    "genero": "Yersinia",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive_negative",
+      "VP": "negative",
+      "CITRATO": "negative",
+      "H2S": "negative",
+      "Hidrólise de uréia": "negative",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "Hidrólise de esculina": "depends",
+      "DNAse(25C)": "positive",
+      "Pigmento amarelo": "negative"
+    }
+  },
+  {
+    "name": "pseudotuberculosis",
+    "subgrupo": "Yiesiniae (Tribo VII)",
+    "genero": "Yersinia",
+    "results": {
+      "Indol": "negative",
+      "VM": "positive",
+      "VP": "negative",
+      "CITRATO": "negative",
+      "H2S": "negative",
+      "Hidrólise de uréia": "positive",
+      "FEN(LTD)": "negative",
+      "Lis. Desc.": "negative",
+      "Ornitina": "negative",
+      "Mot.(36C)": "negative",
+      "Malonato": "negative",
+      "Glic. (Ácido)": "positive",
+      "Glicose (CO2)": "negative",
+      "Lactose": "negative",
+      "Sacarose": "negative",
+      "Hidrólise de esculina": "positive",
+      "DNAse(25C)": "positive",
+      "Pigmento amarelo": "negative"
     }
   }
 ]
