@@ -76,7 +76,7 @@ export const getMatchType = (a: string, b: string | undefined) => {
     return 'Menos provável';
   }
 
-  if (a === 'depends') {
+  if (a === 'depends' || !b) {
     return 'Ignorado';
   }
 
@@ -134,9 +134,6 @@ export const getResults = (test: FormSchemaType) => {
   });
 
   results.sort((a, b) => {
-    if (a.different !== b.different) {
-      return a.different - b.different;
-    }
     if (a.exact !== b.exact) {
       return b.exact - a.exact; // Ordena por exact em ordem decrescente
     }
